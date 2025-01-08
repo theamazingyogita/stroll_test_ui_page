@@ -69,6 +69,11 @@ class _HomeScreenState extends State<HomeScreen>
                       ),
                     ),
                   ),
+                  Container(
+                    child: Flex(
+                      direction: Axis.horizontal,
+                    ),
+                  ),
                 ],
               ),
               Container(),
