@@ -1,26 +1,28 @@
 # Stroll Test UI
 
 This project is created as part of Round 1 for the Flutter Developer position at Stroll. It showcases a simple UI with interactive components built using Flutter.
+
+
 Overview
+This project is a UI test application that focuses on building and displaying a basic user interface. 
+It does not implement complex state management solutions, as simple setState() functionality is sufficient for toggling visibility and other interactions.
 
-This project is a UI test application that focuses on building and displaying a basic user interface. It does not implement complex state management solutions, as simple setState() functionality is sufficient for toggling visibility and other interactions.
 Features
-
 A clean and simple layout designed to test UI concepts in Flutter.
 Interactive elements like buttons and toggles to demonstrate basic functionality.
 Platform-specific design considerations for both iOS and Android (using Cupertino and Material widgets).
-Screenshots
 
+
+Screenshots
 Here are a couple of screenshots demonstrating the app's UI:
+
 iPhone 15 Pro Max - 
 ![Simulator Screenshot - iPhone 15 Pro Max - 2025-01-08 at 22 38 59](https://github.com/user-attachments/assets/95cb1332-3bc6-4a51-a6b2-641f6e6bc610)
+
 iPhone 15 Pro Max - 
 ![Simulator Screenshot - iPhone 15 Pro Max - 2025-01-08 at 22 33 36](https://github.com/user-attachments/assets/0e4e3836-6d34-4eed-a51e-04e197034237)
 
-
-
 Getting Started
-
 To get started with the project, follow the steps below.
 Prerequisites
 Before you begin, make sure you have the following installed:
