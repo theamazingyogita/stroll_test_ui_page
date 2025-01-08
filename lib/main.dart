@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
             // White icons on status bar
             systemNavigationBarColor: Colors.transparent,
             // Keep system navigation bar transparent
-            systemNavigationBarIconBrightness: Brightness.dark,
+            systemNavigationBarIconBrightness: Brightness.light,
             // Dark icons for system navigation
             statusBarBrightness: Brightness
                 .dark, // Ensure dark status bar content (for contrast)

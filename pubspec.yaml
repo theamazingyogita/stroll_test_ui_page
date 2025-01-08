@@ -63,7 +63,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/
-    - assets/Demo_Fonts
+    - assets/fonts/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -78,11 +78,14 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: Demo Fonts
+    - family: ProximaNova-Light
       fonts:
-        - asset: assets/Demo_Fonts/Fontspring-DEMO-proximanova-bold.otf
+        - asset: assets/fonts/Fontspring-DEMO-proximanova-lightit.otf
     - family: ProximaNova-Bold
       fonts:
-        - asset:  assets/Demo_Fonts/Fontspring-DEMO-proximanova-bold.otf
+        - asset: assets/fonts/Fontspring-DEMO-proximanova-bold.otf
+    - family: ProximaNova-Regular
+      fonts:
+         - asset: assets/fonts/Fontspring-DEMO-proximanova-regular.otf
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
